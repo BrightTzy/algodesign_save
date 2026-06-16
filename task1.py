@@ -8,10 +8,8 @@ def comb(i):
         print(*x)
         return
     
-    x[i] = 0
-    comb(i + 1)
-
-    x[i] = 1
-    comb(i + 1)
+    for j in [0,1]:
+        x[i] = j
+        comb(i+1)
 
 comb(0)
