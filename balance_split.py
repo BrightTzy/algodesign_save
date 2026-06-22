@@ -1,3 +1,9 @@
+
+# Name: Saw Lin Htet Oo
+# ID: 6712114
+# Section: 542
+
+
 n = list(map(int, input().split()))
 
 curr_diff = 0
