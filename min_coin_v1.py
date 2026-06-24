@@ -1,7 +1,13 @@
 
+# Name: Saw Lin Htet Oo
+# ID: 6712114
+# Section: 542
+
 
 import sys
 import time
+
+sys.setrecursionlimit(10000)
 
 c = list(map(int, input().split()))
 n = int(input())
@@ -26,6 +32,6 @@ def coinChange(n , c):
 result = coinChange(n,c)
 finish = time.process_time()
 
-print(count)
-print(result)
+print('recursion count: ' , count)
+print('Answer: ', result)
 print('Total Time: ', finish - start)
